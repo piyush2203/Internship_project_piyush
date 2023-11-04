@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+}
+.navContainer{
+    width: 100vw;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    min-height: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: 'center';
+    position: relative;
+}
+
+nav{
+    width: 100%;
+
+}
+
+#navlist{
+    margin-left: 10px;
+    margin-right: 20px;
+
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: 'center';
+    
+}
+
+#head{
+    font-size: 2.5rem;
+    color: rgba(18, 14, 247, 0.865);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(201, 19, 19);
+    margin-top: 10px;
+}
+#navitem{
+    display: flex;
+    gap: 15px;
+    
+
+}
+
+.contentbox{
+    width: 80%;
+    margin:auto;
+    border: 1px solid black;
+    background-color: #579bc6;
+    background-image: linear-gradient(160deg, #579bc6 0%, #10356b 100%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    box-shadow: 0px 0px 30px rgb(13, 4, 4);
+
+}
+
+.item1{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightbox1 img{
+    border-radius: 10px;
+    transition: all 0.6s linear 0s ;
+    height: 200px;
+}
+
+.rightbox1 img:hover{
+    transform: scale(1.05);
+}
+
+#rightbox2 img:hover{
+    transform: scale(1.05);
+}
+
+#leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+
+#leftbox h2{
+    display: flex;
+    font-size: 25px;
+}
+
+.item2{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#rightbox2 img{
+    border-radius: 10px;
+    transition: all 0.6s linear 0s ;
+    height: 200px;
+    width: 300px;
+}
+
+#leftbox2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+
+#leftbox2 h2{
+    display: flex;
+    font-size: 25px;
+}
+
+.footer{
+    background-color: grey;
+    text-align: center;
+    min-height: 50px;
+}
+
+.footer p{
+    font-size: large;
+}
+
+.Ingredient1{
+    font-size: 1.3rem;
+}
+
+.overlay1{
+    margin: 10px;
+
+}
+
+.overlay2{
+    margin: 10px
+}
